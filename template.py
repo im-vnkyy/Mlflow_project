@@ -34,8 +34,8 @@ f"src/{project_name}/entity/config_entity•py",
 ]
 
 
-for filepath in list_of_files:
-    filepath = Path(filepath)
+for filepath1 in list_of_files:
+    filepath = Path(filepath1)
     filedir, filename = os.path.split(filepath)
 
     if filedir != "":
